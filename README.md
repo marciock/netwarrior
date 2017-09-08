@@ -10,3 +10,9 @@ It will be divided into two forms of execution:
 
 
 ## Structure
+
+###Abaixo segue a hieraquia estrutural do projeto
+-Núcleo: Serão organizadas e direcionadas as entradas e saídas dos serviços internos 
+- Serviços Internos:São os que se interligam com o Core. Esses serviços realizam o translado de informações para que as ferramentas e outras funções sejam executadas. 
+
+A estrutura funcionará com acoplamentos, ou seja, o núcleo será independente e os serviços internos acoplados ao mesmo. Esse procedimento será importante para a criação de novos serviços, adição de novas ferramentas que funcionem de forma complexa, à exclusão de serviços/ferramentas e a atualização de toda a estrutura, principalemente o núcleo em questão.
