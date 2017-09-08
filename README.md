@@ -11,8 +11,8 @@ It will be divided into two forms of execution:
 
 ## Structure
 
-###Abaixo segue a hieraquia estrutural do projeto
--Núcleo: Serão organizadas e direcionadas as entradas e saídas dos serviços internos 
-- Serviços Internos:São os que se interligam com o Core. Esses serviços realizam o translado de informações para que as ferramentas e outras funções sejam executadas. 
+Below is the structural hierarchy of the project
+- Core: The entries and exits of internal services will be organized and directed
+- Internal Services: They are those that interconnect with the Core. These services perform the transfer of information so that tools and other functions are performed.
 
-A estrutura funcionará com acoplamentos, ou seja, o núcleo será independente e os serviços internos acoplados ao mesmo. Esse procedimento será importante para a criação de novos serviços, adição de novas ferramentas que funcionem de forma complexa, à exclusão de serviços/ferramentas e a atualização de toda a estrutura, principalemente o núcleo em questão.
+The structure will work with couplings, that is, the core will be independent and the internal services coupled to it. This will be important for creating new services, adding new tools that work in complex ways, excluding services / tools and updating the entire structure, mainly the core in question.
