@@ -1,7 +1,0 @@
-# Ignorar arquivos específicos
-.DS_Store
-
-
-# Ignorar todos os diretórios e arquivos em um diretório.
-node_modules/**/*  
-
